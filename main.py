@@ -47,7 +47,7 @@ speak("What can I do for You?")
 
 
 #GEMINI API WORKS
-genai.configure(api_key="AIzaSyCNLyRA1_uxb8Xx-gnjQYCh9AZA0_56EHM")
+genai.configure(api_key="YOUR_API_KEY")
 
 model = genai.GenerativeModel(model_name='gemini-1.5-flash')
 
